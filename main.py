@@ -5,8 +5,7 @@ import os
 
 app = FastAPI()
 
-API_KEY = os.getenv("7c49591665c3b7d90de8b57391b3260b")
-
+API_KEY = "7c49591665c3b7d90de8b57391b3260b"
 
 # 🔹 Simulated "model" (AI logic)
 def weather_advisor(temp, description):
